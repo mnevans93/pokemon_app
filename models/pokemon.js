@@ -6,6 +6,7 @@ const pokemonSchema = new mongoose.Schema({
     canItEvolve: Boolean,
     isItCute: Boolean,
     isItCool: Boolean,
+    imageLink: {type: String, require: true}
 })
 
 const Pokemon = mongoose.model('Pokemon', pokemonSchema)

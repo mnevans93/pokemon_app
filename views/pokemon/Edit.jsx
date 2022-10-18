@@ -11,7 +11,8 @@ class Edit extends React.Component {
                     Type: <input type="text" name="pokemonType" defaultValue={pokemonType}/><br />
                     Can It Evolve: {canItEvolve ? <input type="checkbox" name="canItEvolve" defaultChecked /> : <input type="checkbox" name="canItEvolve" />} <br />
                     Is It Cute: {isItCute ? <input type="checkbox" name="isItCute" defaultChecked /> : <input type="checkbox" name="isItCute" />} <br />
-                    Is It Cool: {isItCool ? <input type="checkbox" name="isItCool" defaultChecked /> : <input type="checkbox" name="isItCool" />} <br /> <br />
+                    Is It Cool: {isItCool ? <input type="checkbox" name="isItCool" defaultChecked /> : <input type="checkbox" name="isItCool" />} <br />
+                    Image Link: <input type="text" name="imageLink" defaultValue={imageLink} /> <br />
                     <input type="submit" value="Submit Changes" /> <br /><br />
                 </form>
                 <form action={`/pokedex/${_id}?_method=DELETE`} method="POST">

@@ -2,12 +2,12 @@ const React = require('react')
 
 class Default extends React.Component {
     render() {
-        const {pokemon, pokemonName, children } = this.props
+        const { pokemon, title, children } = this.props
         return (
             <html>
                 <head>
                     <link rel="stylesheet" href="/app.css" />
-                    <title>{pokemonName}</title>
+                    <title>{title}</title>
                 </head>
                 <body>
                     <nav>
@@ -16,7 +16,7 @@ class Default extends React.Component {
                         {(pokemon) ? this.renderEntryElements(pokemon) : ''}
                     </nav>
                     <h1>
-                        {pokemonName}
+                        {title}
                     </h1>
                     {children}
                 </body>
