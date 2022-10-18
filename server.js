@@ -20,7 +20,7 @@ db.once('open', () => {
 
 app.use(methodOverride('_method'))
 app.use(express.static('public'))
-app.use('/logs', require('.controllers/routeController.js'))
+app.use('/pokedex', require('./controllers/routeController.js'))
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)

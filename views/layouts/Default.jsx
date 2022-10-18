@@ -11,8 +11,8 @@ class Default extends React.Component {
                 </head>
                 <body>
                     <nav>
-                        <a href="/pokedex">Pokedex</a>
-                        <a href="/pokedex/new">Add New Pokedex Entry</a>
+                        <a href="/pokedex">Go To Pokedex</a> <br />
+                        <a href="/pokedex/new">Add New Pokedex Entry</a> <br />
                         {(pokemon) ? this.renderEntryElements(pokemon) : ''}
                     </nav>
                     <h1>

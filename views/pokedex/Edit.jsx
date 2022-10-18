@@ -3,7 +3,7 @@ const Default = require('../layouts/Default.jsx')
 
 class Edit extends React.Component {
     render() {
-        const { _id, pokemonName, pokemonType, canItEvolve, isItCute, isItCool } = this.props.pokemon
+        const { _id, pokemonName, pokemonType, canItEvolve, isItCute, isItCool, imageLink } = this.props.pokemon
         return (
             <Default pokemonName={`Edit: ${pokemonName}`} pokemon={this.props.pokemon}>
                 <form action={`/pokedex/${_id}?_method=PUT`} method="POST">
