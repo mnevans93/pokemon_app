@@ -1,0 +1,21 @@
+Charmander - FIRE
+Squirtle - WATER
+Bulbasaur - GRASS
+Pikachu - ELECTRIC
+Meowth - NORMAL
+Magikarp - WATER
+Snorlax - NORMAL
+Mewtwo - PSYCHIC
+Mew - PSYCHIC
+Flareon - FIRE
+Eevee - NORMAL
+Jolteon - ELECTRIC
+Vaporeon - WATER
+Umbreon - DARK
+Abra - PSYCHIC
+
+NAME
+TYPE
+isItCool
+isItCute
+canItEvolve
